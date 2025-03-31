@@ -1,0 +1,25 @@
+version: '3.11'
+
+services:
+  web:
+    build: .
+    container_name: lotfinity-dentidelil-blogv3
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "55551:8000"
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+
+# Optional: Add your database or cache service here later
+# Example:
+#  db:
+#    image: postgres:15
+#    environment:
+#      POSTGRES_USER: youruser
+#      POSTGRES_PASSWORD: yourpassword
+#      POSTGRES_DB: yourdb
+#    ports:
+#      - "5432:5432"

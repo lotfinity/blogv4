@@ -1,0 +1,43 @@
+/* ...existing code... */
+
+/* Post Detail Modal Styles */
+#postDetailModal .modal-content {
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#postDetailModal .modal-body {
+    padding: 0;
+}
+
+.post-media-container {
+    height: 80vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-media-container img,
+.post-media-container video {
+    max-height: 80vh;
+    width: auto;
+    max-width: 100%;
+}
+
+.post-details-sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.post-header {
+    border-
+}
+
+/* Add to main.css */
+link[rel="icon"] {
+    display: none; /* Temporarily hide missing favicon */
+}

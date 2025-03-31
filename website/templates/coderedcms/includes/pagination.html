@@ -1,0 +1,33 @@
+{% load i18n coderedcms_tags %}
+{% if items.paginator.num_pages > 1 %}
+    <div class="col-md-12">
+        <ul class="page-number">
+            <!-- Previous Button -->
+            {% if items.has_previous %}
+                <li class="pagination-previous">
+                    <a href="?page={{ items.previous_page_number }}">&lt;</a>
+                </li>
+            {% else %}
+                <li class="pagination-previous disabled"><a href="#">&lt;</a></li>
+            {% endif %}
+
+            <!-- Page Number Buttons -->
+            {% for num in items.paginator.page_range %}
+                {% if items.number == num %}
+                    <li class="active"><a href="#">{{ num }}</a></li> <!-- Active Page -->
+                {% else %}
+                    <li><a href="?page={{ num }}">{{ num }}</a></li>
+                {% endif %}
+            {% endfor %}
+
+            <!-- Next Button -->
+            {% if items.has_next %}
+                <li class="page-number">
+                    <a href="?page={{ items.next_page_number }}">Next</a>
+                </li>
+            {% else %}
+                <li class="pagination-next disabled"><a href="#">Next</a></li>
+            {% endif %}
+        </ul>
+    </div>
+{% endif %}

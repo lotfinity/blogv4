@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Entrance Animation for Images | Demo 1 | Codrops</title>
+    <meta name="description" content="A circular stack intro animation for images." />
+    <meta name="keywords" content="gsap, animation, intro, stack, images" />
+    <meta name="author" content="deadrabbbbit for Codrops" />
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloock&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Corrected CSS Reference -->
+    <link rel="stylesheet" type="text/css" href="{% static 'intro/css/base.css' %}" />
+
+    <script>
+      document.documentElement.className = "js";
+    </script>
+
+
+<style>
+/* Ensure Full Viewport with Proper Layers */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrolling */
+}
+
+/* Barba.js Containers Full Viewport */
+[data-barba="container"] {
+  height: 100vh; /* Full viewport height */
+  width: 100vw;  /* Full viewport width */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100; /* Keep above everything else */
+}
+
+.content, .scene, .group {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.demo-1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.main-content {
+  position: relative;
+  z-index: 1000;
+}
+
+</style>
+
+  </head>
+
+  <body class="demo-1 loading" data-barba="wrapper">
+    <div data-barba="container" data-barba-namespace="home">
+      <div data-debug>
+        <div></div>
+      </div>
+    </div>
+
+    <main>
+
+      <div class="content">
+        <div class="scene">
+          <div class="group">
+<div class="card">
+  <div class="card__img" style="background-image: url({% static 'intro/img/1.png' %})"></div>
+</div>
+<div class="card">
+  <div class="card__img" style="background-image: url({% static 'intro/img/2.png' %})"></div>
+</div>
+<div class="card">
+  <div class="card__img" style="background-image: url({% static 'intro/img/3.png' %})"></div>
+</div>
+<div class="card">
+  <div class="card__img" style="background-image: url({% static 'intro/img/4.png' %})"></div>
+</div>
+<div class="card">
+  <div class="card__img" style="background-image: url({% static 'intro/img/5.png' %})"></div>
+</div>
+<div class="card">
+  <div class="card__img" style="background-image: url({% static 'intro/img/6.png' %})"></div>
+</div>
+<div class="card">
+  <div class="card__img" style="background-image: url({% static 'intro/img/7.png' %})"></div>
+</div>
+<div class="card">
+  <div class="card__img" style="background-image: url({% static 'intro/img/8.png' %})"></div>
+</div>
+          </div>
+        </div>
+
+        
+        <div class="headings">
+          <h1 class="headings__main gloock-regular">Denti</h1>
+          <h1 class="headings__main gloock-regular">Delil</h1>
+          <h5 class="headings_subtitle gloock-regular">2024</h5>
+        </div>
+      </div>
+    </main>
+
+    <!-- Corrected JS References -->
+    <script src="{% static 'intro/js/gsap.min.js' %}"></script>
+    <script src="{% static 'intro/js/imagesloaded.pkgd.min.js' %}"></script>
+    <script type="module" src="{% static 'intro/js/index.js' %}"></script>
+  </body>
+</html>

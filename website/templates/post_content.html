@@ -1,0 +1,6 @@
+{% load coderedcms_tags i18n static wagtailcore_tags wagtailimages_tags wagtailsettings_tags wagtailuserbar %}
+<div>
+    <h2>{{ post.title }}</h2>
+    <img src="{{ post.image.url }}" alt="{{ post.title }}">
+    <p>{{ post.description }}</p>
+</div>

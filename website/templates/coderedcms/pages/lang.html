@@ -1,0 +1,47 @@
+{% load wagtailcore_tags wagtailimages_tags i18n static %}
+
+<div class="menu">
+    <!-- Hamburger Button with Current Language -->
+    <div class="hamburger-menu-wrapper">
+        <button class="hamburger-menu" id="hamburger-menu-button">
+            <img src="{% static 'home/img/icons/flags/' %}{{ LANGUAGE_CODE }}.svg"
+                 alt="{{ LANGUAGE_CODE }}"
+                 class="flag-icon"
+                 width="48">
+            <span>{% trans "Language" %}</span>
+        </button>
+    </div>
+
+    <!-- Dynamic Language Switcher Menu -->
+    <div class="menu-list" style="display: none;">
+        {% if page %}
+            {% for translation in page.get_translations.live %}
+                {% get_language_info for translation.locale.language_code as lang %}
+                <a href="{% pageurl translation %}" rel="alternate" hreflang="{{ lang.code }}" class="flag-button-link">
+                    <img src="{% static 'home/img/icons/flags/' %}{{ lang.code }}.svg"
+                         alt="{{ lang.name_local }}"
+                         width="58"
+                         {% if LANGUAGE_CODE == lang.code %} class="current-language" {% endif %}>
+                </a>
+                <br>
+            {% endfor %}
+        {% endif %}
+
+        <!-- Inactive Languages -->
+        <img src="{% static 'home/img/icons/flags/de.svg' %}" width="58" alt="Inactive" class="inactive-language" disabled>
+    </div>
+</div>
+
+<!-- Toggle Menu Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const hamburgerButton = document.getElementById('hamburger-menu-button');
+        const menuList = document.querySelector('.menu-list');
+
+        hamburgerButton.addEventListener('click', function() {
+            menuList.style.display = menuList.style.display === 'none' ? 'block' : 'none';
+        });
+    });
+</script>
+
+<!-- CSS -->

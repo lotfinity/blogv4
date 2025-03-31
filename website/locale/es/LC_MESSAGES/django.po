@@ -1,0 +1,724 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-08 07:51+0000\n"
+"PO-Revision-Date: 2025-02-25 11:35+0300\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Translated-Using: django-rosetta 0.10.1\n"
+
+#: templates/coderedcms/blocks/film_strip_block.html:28
+msgid "Previous"
+msgstr "Anterior"
+
+#: templates/coderedcms/blocks/film_strip_block.html:31
+msgid "Next"
+msgstr "Próximo"
+
+#: templates/coderedcms/includes/classifier_dropdowns.html:5
+msgid "Filter by"
+msgstr "Filtrar por"
+
+#: templates/coderedcms/includes/classifier_dropdowns.html:11
+msgid "Filter"
+msgstr "Filtro"
+
+#: templates/coderedcms/includes/classifier_dropdowns.html:12
+#: templates/coderedcms/includes/classifier_nav.html:6
+msgid "All"
+msgstr "Todo"
+
+#: templates/coderedcms/includes/form_honeypot.html:3
+msgid "Leave this blank if you are a human"
+msgstr "Déjalo en blanco si eres un ser humano"
+
+#: templates/coderedcms/includes/iframe_gmap.html:5
+msgid "Map of"
+msgstr "Mapa de"
+
+#: templates/coderedcms/pages/article_page.html:19
+#: templates/coderedcms/pages/article_pagemk.html:19
+msgid "Blog Image"
+msgstr "Imagen del blog"
+
+#: templates/coderedcms/pages/article_page.html:34
+#: templates/coderedcms/pages/article_pagemk.html:37
+#: templates/coderedcms/pages/custom_article_page.html:40
+msgid "Back to Blog"
+msgstr "Volver al Blog"
+
+#: templates/coderedcms/pages/article_page.html:46
+#: templates/coderedcms/pages/article_pagemk.html:47
+#: templates/coderedcms/pages/custom_article_page.html:52
+#: templates/coderedcms/pages/custom_location_page.html:57
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: templates/coderedcms/pages/article_page.html:99
+#: templates/coderedcms/pages/article_pagemk.html:69
+#: templates/coderedcms/pages/custom_article_page.html:74
+#: templates/coderedcms/pages/custom_location_page.html:110
+msgid "Search..."
+msgstr "Buscar..."
+
+#: templates/coderedcms/pages/article_page.html:104
+#: templates/coderedcms/pages/article_pagemk.html:74
+#: templates/coderedcms/pages/custom_article_page.html:81
+#: templates/coderedcms/pages/custom_location_page.html:115
+msgid "Quick Links"
+msgstr "Enlaces rápidos"
+
+#: templates/coderedcms/pages/article_page.html:107
+#: templates/coderedcms/pages/article_pagemk.html:77
+#: templates/coderedcms/pages/bkp/service2.html:163
+#: templates/coderedcms/pages/custom_article_page.html:84
+#: templates/coderedcms/pages/custom_location_page.html:118
+#: templates/coderedcms/snippets/n2.html:24
+#: templates/instagram_post_page.html:148
+msgid "Home"
+msgstr "Hogar"
+
+#: templates/coderedcms/pages/article_page.html:108
+#: templates/coderedcms/pages/article_pagemk.html:78
+#: templates/coderedcms/pages/bkp/service2.html:256
+#: templates/coderedcms/pages/custom_article_page.html:85
+#: templates/coderedcms/pages/custom_location_page.html:119
+msgid "About Us"
+msgstr "Sobre nosotros"
+
+#: templates/coderedcms/pages/article_page.html:109
+#: templates/coderedcms/pages/article_pagemk.html:79
+#: templates/coderedcms/pages/custom_article_page.html:86
+#: templates/coderedcms/pages/custom_location_page.html:120
+msgid "Denti-Board"
+msgstr "Denti-Board"
+
+#: templates/coderedcms/pages/article_page.html:110
+#: templates/coderedcms/pages/article_pagemk.html:80
+#: templates/coderedcms/pages/custom_article_page.html:87
+msgid "Top Blogs"
+msgstr "Los mejores blogs"
+
+#: templates/coderedcms/pages/article_page.html:115
+#: templates/coderedcms/pages/article_pagemk.html:85
+#: templates/coderedcms/pages/custom_article_page.html:94
+msgid "Recent Posts"
+msgstr "Publicaciones recientes"
+
+#: templates/coderedcms/pages/article_page.html:136
+#: templates/coderedcms/pages/article_pagemk.html:106
+#: templates/coderedcms/pages/custom_article_page.html:115
+msgid "No recent posts available."
+msgstr "No hay publicaciones recientes disponibles."
+
+#: templates/coderedcms/pages/article_page.html:143
+#: templates/coderedcms/pages/article_pagemk.html:113
+msgid "Latest Gallery"
+msgstr "Última Galería"
+
+#: templates/coderedcms/pages/base.html:281
+#: templates/coderedcms/pages/base2.html:263
+#: templates/coderedcms/pages/basedoc.html:260
+#: templates/coderedcms/pages/baseserv.html:251
+#: templates/coderedcms/pages/basestory.html:148
+#: templates/coderedcms/pages/bkp/base.html:151
+#: templates/coderedcms/pages/bkp/base2.html:145
+#: templates/coderedcms/pages/bkp/basedoc.html:151
+#: templates/coderedcms/pages/bkp/baseserv.html:158
+msgid "Related"
+msgstr "Relacionado"
+
+#: templates/coderedcms/pages/bkp/base.html:212
+#: templates/coderedcms/pages/bkp/base2.html:201
+#: templates/coderedcms/pages/bkp/basedoc.html:208
+#: templates/coderedcms/pages/bkp/service.html:286
+#: templates/coderedcms/pages/service.html:286
+msgid "hello i would like to have a free consultation"
+msgstr "hola me gustaría tener una consulta gratuita"
+
+#: templates/coderedcms/pages/bkp/service2.html:164
+#: templates/coderedcms/snippets/n2.html:25
+msgid "Dentists"
+msgstr "Dentistas"
+
+#: templates/coderedcms/pages/bkp/service2.html:165
+#: templates/coderedcms/snippets/n2.html:26
+msgid "Schedule"
+msgstr "Horario"
+
+#: templates/coderedcms/pages/bkp/service2.html:166
+#: templates/coderedcms/snippets/n2.html:27
+msgid "Clinic"
+msgstr "Clínica"
+
+#: templates/coderedcms/pages/bkp/service2.html:167
+#: templates/coderedcms/snippets/n2.html:28
+msgid "Hotels"
+msgstr "Hoteles"
+
+#: templates/coderedcms/pages/bkp/service2.html:168
+#: templates/coderedcms/pages/bkp/service2.html:282
+#: templates/coderedcms/pages/service2.html:230
+#: templates/coderedcms/snippets/n2.html:29
+msgid "Gallery"
+msgstr "Galería"
+
+#: templates/coderedcms/pages/bkp/service2.html:172
+#: templates/coderedcms/snippets/n.html:88
+#: templates/coderedcms/snippets/n2.html:33
+msgid "Our Website"
+msgstr "Nuestro sitio web"
+
+#: templates/coderedcms/pages/bkp/service2.html:177
+#: templates/coderedcms/snippets/bkp/f2.html:32
+#: templates/coderedcms/snippets/f2.html:33
+#: templates/coderedcms/snippets/n.html:93
+#: templates/coderedcms/snippets/n2.html:38
+msgid "Our Blogs"
+msgstr "Nuestros Blogs"
+
+#: templates/coderedcms/pages/bkp/service2.html:191
+#: templates/coderedcms/snippets/n.html:107
+#: templates/coderedcms/snippets/n2.html:52
+msgid "Dentiboard"
+msgstr "Dentiboard"
+
+#: templates/coderedcms/pages/bkp/service2.html:193
+#: templates/coderedcms/snippets/bkp/f2.html:47
+#: templates/coderedcms/snippets/f2.html:48
+#: templates/coderedcms/snippets/n.html:109
+#: templates/coderedcms/snippets/n2.html:54
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: templates/coderedcms/pages/bkp/service2.html:194
+#: templates/coderedcms/snippets/bkp/f2.html:48
+#: templates/coderedcms/snippets/f2.html:49
+#: templates/coderedcms/snippets/n.html:110
+#: templates/coderedcms/snippets/n2.html:55
+msgid "Signup"
+msgstr "Regístrate"
+
+#: templates/coderedcms/pages/bkp/service2.html:195
+#: templates/coderedcms/snippets/bkp/f2.html:49
+#: templates/coderedcms/snippets/f2.html:50
+#: templates/coderedcms/snippets/n.html:111
+#: templates/coderedcms/snippets/n2.html:56
+msgid "Terms of Service"
+msgstr "Términos de servicio"
+
+#: templates/coderedcms/pages/bkp/service2.html:196
+#: templates/coderedcms/snippets/bkp/f2.html:50
+#: templates/coderedcms/snippets/f2.html:51
+#: templates/coderedcms/snippets/n.html:112
+#: templates/coderedcms/snippets/n2.html:57
+msgid "Flight"
+msgstr "Vuelo"
+
+#: templates/coderedcms/pages/bkp/service2.html:201
+#: templates/coderedcms/snippets/n.html:117
+#: templates/coderedcms/snippets/n2.html:62
+msgid "Say Hello to Denti"
+msgstr "Saluda a Denti"
+
+#: templates/coderedcms/pages/bkp/service2.html:202
+#: templates/coderedcms/snippets/n.html:118
+#: templates/coderedcms/snippets/n2.html:63
+msgid "Dropdown 3"
+msgstr "Menú desplegable 3"
+
+#: templates/coderedcms/pages/bkp/service2.html:203
+#: templates/coderedcms/snippets/n.html:119
+#: templates/coderedcms/snippets/n2.html:64
+msgid "Dropdown 4"
+msgstr "Menú desplegable 4"
+
+#: templates/coderedcms/pages/bkp/service2.html:208
+#: templates/coderedcms/pages/bkp/service2.html:587
+#: templates/coderedcms/snippets/n.html:124
+#: templates/coderedcms/snippets/n2.html:69
+msgid "Contact"
+msgstr "Contacto"
+
+#: templates/coderedcms/pages/bkp/service2.html:216
+msgid "Buy Tickets"
+msgstr "Comprar Entradas"
+
+#: templates/coderedcms/pages/bkp/service2.html:289
+#: templates/coderedcms/pages/service2.html:237
+msgid "Gallery Image"
+msgstr "Imagen de la galería"
+
+#: templates/coderedcms/pages/bkp/service2.html:322
+#: templates/coderedcms/pages/service2.html:255
+#: templates/instagram_post_page.html:547
+msgid "Our Dentists"
+msgstr "Nuestros Dentistas"
+
+#: templates/coderedcms/pages/bkp/service2.html:361
+#: templates/coderedcms/pages/service2.html:297
+msgid "Patient Journey"
+msgstr "Recorrido del paciente"
+
+#: templates/coderedcms/pages/bkp/service2.html:402
+#: templates/coderedcms/pages/service2.html:330
+msgid "Partner Brands"
+msgstr "Marcas asociadas"
+
+#: templates/coderedcms/pages/bkp/service2.html:436
+#: templates/coderedcms/pages/service2.html:362
+msgid "Our Clinics"
+msgstr "Nuestras Clínicas"
+
+#: templates/coderedcms/pages/bkp/service2.html:457
+#: templates/coderedcms/pages/service2.html:385
+msgid "No image available."
+msgstr "No hay imagen disponible."
+
+#: templates/coderedcms/pages/bkp/service2.html:477
+#: templates/coderedcms/pages/service2.html:406
+msgid "Partner Hotels"
+msgstr "Hoteles asociados"
+
+#: templates/coderedcms/pages/bkp/service2.html:478
+msgid ""
+"Hotel accomodation is included in most of our packages(*). all you have to "
+"do is pick your spot! "
+msgstr ""
+"El alojamiento en hotel está incluido en la mayoría de nuestros paquetes(*)."
+" ¡Todo lo que tienes que hacer es elegir tu lugar! "
+
+#: templates/coderedcms/pages/bkp/service2.html:507
+msgid "0.4 Mile from the the Grand Bazaar"
+msgstr "A 0.4 millas del Gran Bazar"
+
+#: templates/coderedcms/pages/bkp/service2.html:520
+#: templates/coderedcms/pages/service2.html:448
+msgid "Our Packages"
+msgstr "Nuestros Paquetes"
+
+#: templates/coderedcms/pages/bkp/service2.html:553
+#: templates/coderedcms/pages/service2.html:480
+msgid "Frequently Asked Questions"
+msgstr "Preguntas frecuentes"
+
+#: templates/coderedcms/pages/bkp/service2.html:588
+msgid ""
+"Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur "
+"velit"
+msgstr ""
+"Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur "
+"velit"
+
+#: templates/coderedcms/pages/bkp/service2.html:598
+#: templates/coderedcms/pages/service2.html:517
+msgid "Address"
+msgstr "Dirección"
+
+#: templates/coderedcms/pages/bkp/service2.html:599
+#: templates/coderedcms/pages/service2.html:518
+#: templates/coderedcms/snippets/bkp/f2.html:15
+#: templates/coderedcms/snippets/f2.html:16
+msgid "Denti Delil Ağız ve Diş Sağlığı Polikliniği"
+msgstr "Denti Delil Ağız ve Diş Sağlığı Polikliniği"
+
+#: templates/coderedcms/pages/bkp/service2.html:606
+#: templates/coderedcms/pages/service2.html:525
+msgid "Call Us"
+msgstr "Llámanos"
+
+#: templates/coderedcms/pages/bkp/service2.html:614
+#: templates/coderedcms/pages/service2.html:533
+msgid "Email Us"
+msgstr "Envíenos un correo electrónico"
+
+#: templates/coderedcms/pages/custom_location_page.html:38
+msgid "Location Image"
+msgstr "Imagen de ubicación"
+
+#: templates/coderedcms/pages/custom_location_page.html:121
+msgid "Top Locations"
+msgstr "Principales ubicaciones"
+
+#: templates/coderedcms/pages/custom_location_page.html:126
+msgid "Recent Locations"
+msgstr "Ubicaciones recientes"
+
+#: templates/coderedcms/pages/form_page_landing.html:8
+msgid "Thank You"
+msgstr "Gracias"
+
+#: templates/coderedcms/pages/form_page_landing.html:9
+msgid "We have successfully received your submission."
+msgstr "Hemos recibido con éxito su presentación."
+
+#: templates/coderedcms/pages/lang.html:11
+msgid "Language"
+msgstr "Idioma"
+
+#: templates/coderedcms/pages/search.html:7
+#: templates/coderedcms/pages/search.html:14
+#: templates/coderedcms/pages/search.html:32
+#: templates/coderedcms/snippets/bkp/navbar.html:37
+#: templates/coderedcms/snippets/navbar.html:37
+#: templates/instagram_post_page.html:154
+#: templates/instagram_post_page.html:262
+#: templates/instagram_post_page.html:315
+#: templates/instagram_post_page.html:317
+msgid "Search"
+msgstr "Buscar"
+
+#: templates/coderedcms/pages/search.html:7
+#: templates/coderedcms/pages/search.html:16
+msgid "Search for"
+msgstr "Buscar"
+
+#: templates/coderedcms/pages/search.html:45
+msgid "All Results"
+msgstr "Todos los resultados"
+
+#: templates/coderedcms/pages/search.html:80
+msgid "No results found."
+msgstr "No se ha encontrado ningún artículo."
+
+#: templates/coderedcms/pages/service2.html:173
+msgid "Hero Image"
+msgstr "Imagen principal"
+
+#: templates/coderedcms/pages/service2.html:202
+msgid "About Us Image"
+msgstr "Sobre Nosotros Imagen"
+
+#: templates/coderedcms/pages/service2.html:407
+msgid ""
+"Hotel accommodation is included in most of our packages(*). All you have to "
+"do is pick your spot!"
+msgstr ""
+"El alojamiento en hotel está incluido en la mayoría de nuestros paquetes(*)."
+" ¡Todo lo que tienes que hacer es elegir tu lugar!"
+
+#: templates/coderedcms/pages/service2.html:436
+msgid "0.4 Mile from the Grand Bazaar"
+msgstr "A 0.4 millas del Gran Bazar"
+
+#: templates/coderedcms/snippets/bkp/f2.html:12
+#: templates/coderedcms/snippets/f2.html:12
+msgid "DENTI DELIL"
+msgstr "DENTI DELIL"
+
+#: templates/coderedcms/snippets/bkp/f2.html:16
+#: templates/coderedcms/snippets/f2.html:17
+msgid "Göztepe, 2341 Sk, 34214 Bağcılar/İstanbul"
+msgstr "Göztepe, 2341 Sk, 34214 Bağcılar/İstanbul"
+
+#: templates/coderedcms/snippets/bkp/f2.html:18
+#: templates/coderedcms/snippets/f2.html:19
+msgid "Phone:"
+msgstr "Teléfono:"
+
+#: templates/coderedcms/snippets/bkp/f2.html:21
+#: templates/coderedcms/snippets/f2.html:22
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#: templates/coderedcms/snippets/bkp/f2.html:26
+#: templates/coderedcms/snippets/f2.html:27
+msgid "Useful Links"
+msgstr "Enlaces de interés"
+
+#: templates/coderedcms/snippets/bkp/f2.html:45
+#: templates/coderedcms/snippets/f2.html:46
+msgid "Denti Board"
+msgstr "Tablero Denti"
+
+#: templates/coderedcms/snippets/bkp/f2.html:60
+#: templates/coderedcms/snippets/f2.html:61
+msgid "Copyright"
+msgstr "Derechos de autor"
+
+#: templates/coderedcms/snippets/bkp/f2.html:60
+#: templates/coderedcms/snippets/f2.html:61
+msgid "Denti Delil 2024"
+msgstr "Denti Delil 2024"
+
+#: templates/coderedcms/snippets/bkp/f2.html:60
+#: templates/coderedcms/snippets/f2.html:61
+msgid "All Rights Reserved"
+msgstr "Todos los derechos reservados"
+
+#: templates/coderedcms/snippets/bkp/navigation.html:64
+#: templates/coderedcms/snippets/navigation.html:128
+msgid "DASHBOARD LOGIN"
+msgstr "INICIO DE SESIÓN EN EL PANEL DE CONTROL"
+
+#: templates/coderedcms/snippets/bkp/navigation.html:66
+#: templates/coderedcms/snippets/navigation.html:130
+msgid "Your smile, our priority. Affordable dental care abroad."
+msgstr ""
+"Tu sonrisa, nuestra prioridad. Atención dental asequible en el extranjero."
+
+#: templates/coderedcms/snippets/n.html:132
+#: templates/coderedcms/snippets/n2.html:77
+msgid "Christmas Sale!"
+msgstr "¡Venta de Navidad!"
+
+#: templates/coderedcms/widgets/checkbox_classifiers.html:31
+msgid "Organize Pages with Classifiers"
+msgstr "Organizar páginas con clasificadores"
+
+#: templates/coderedcms/widgets/checkbox_classifiers.html:33
+msgid "Use Classifiers to create custom categories and filters."
+msgstr ""
+"Utilice los clasificadores para crear categorías y filtros personalizados."
+
+#: templates/coderedcms/widgets/checkbox_classifiers.html:37
+msgid "Add Classifier"
+msgstr "Agregar clasificador"
+
+#: templates/instagram_post_page.html:10
+msgid "Instagram"
+msgstr "Instagram (en inglés)"
+
+#: templates/instagram_post_page.html:139
+#: templates/instagram_post_page.html:140
+msgid "logo"
+msgstr "logotipo"
+
+#: templates/instagram_post_page.html:160
+msgid "Explore"
+msgstr "Explorar"
+
+#: templates/instagram_post_page.html:166
+msgid "Reels"
+msgstr "Carretes"
+
+#: templates/instagram_post_page.html:172
+msgid "Messages"
+msgstr "Mensajes"
+
+#: templates/instagram_post_page.html:178
+#: templates/instagram_post_page.html:353
+#| msgid "Top Locations"
+msgid "Notifications"
+msgstr "Principales ubicaciones"
+
+#: templates/instagram_post_page.html:184
+msgid "Create"
+msgstr "Crear"
+
+#: templates/instagram_post_page.html:191
+msgid "Profile"
+msgstr "Perfil"
+
+#: templates/instagram_post_page.html:201
+msgid "More"
+msgstr "Más"
+
+#: templates/instagram_post_page.html:205
+msgid "Settings"
+msgstr "Configuración"
+
+#: templates/instagram_post_page.html:209
+msgid "Your activity"
+msgstr "Su actividad"
+
+#: templates/instagram_post_page.html:213
+msgid "Saved"
+msgstr "Guardado"
+
+#: templates/instagram_post_page.html:217
+msgid "Switch appearance"
+msgstr "Apariencia del interruptor"
+
+#: templates/instagram_post_page.html:221
+msgid "Report a problem"
+msgstr "Advertir de una problema"
+
+#: templates/instagram_post_page.html:225
+msgid "Switch accounts"
+msgstr "Cambiar de cuenta"
+
+#: templates/instagram_post_page.html:228
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+#: templates/instagram_post_page.html:246
+#: templates/instagram_post_page.html:285
+msgid "Following"
+msgstr "Siguiente"
+
+#: templates/instagram_post_page.html:250
+#: templates/instagram_post_page.html:289
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: templates/instagram_post_page.html:260
+#| msgid "Search"
+msgid "search"
+msgstr "Buscar"
+
+#: templates/instagram_post_page.html:321
+#| msgid "Recent Posts"
+msgid "Recent"
+msgstr "Publicaciones recientes"
+
+#: templates/instagram_post_page.html:322
+msgid "Clear all"
+msgstr "Borrar todo"
+
+#: templates/instagram_post_page.html:332
+#: templates/instagram_post_page.html:501
+msgid "Dent-i Delil Health Group"
+msgstr "Dent-i Delil Health Group"
+
+#: templates/instagram_post_page.html:333
+#: templates/instagram_post_page.html:502
+msgid "Médecine et santé"
+msgstr "Médecine et santé"
+
+#: templates/instagram_post_page.html:339
+msgid "plus"
+msgstr "más"
+
+#: templates/instagram_post_page.html:364
+#: templates/instagram_post_page.html:384
+#: templates/instagram_post_page.html:426
+#: templates/instagram_post_page.html:468
+msgid "started following you."
+msgstr "comenzó a seguirte."
+
+#: templates/instagram_post_page.html:371
+#: templates/instagram_post_page.html:391
+#: templates/instagram_post_page.html:433
+#: templates/instagram_post_page.html:475
+msgid "Follow"
+msgstr "Seguir"
+
+#: templates/instagram_post_page.html:405
+#: templates/instagram_post_page.html:447
+msgid "liked your story."
+msgstr "Me gustó tu historia."
+
+#: templates/instagram_post_page.html:493
+msgid "Let's Chat!"
+msgstr "¡Vamos a charlar!"
+
+#: templates/instagram_post_page.html:497
+msgid "post"
+msgstr "Exponer"
+
+#: templates/instagram_post_page.html:498
+msgid "followers"
+msgstr "Seguidores"
+
+#: templates/instagram_post_page.html:499
+msgid "following"
+msgstr "siguiente"
+
+#: templates/instagram_post_page.html:523
+#| msgid "Our Clinics"
+msgid "Our Clinic"
+msgstr "Nuestras Clínicas"
+
+#: templates/instagram_post_page.html:529
+#| msgid "Our Packages"
+msgid "Our Patients"
+msgstr "Nuestros Paquetes"
+
+#: templates/instagram_post_page.html:535
+msgid "Zirconium"
+msgstr "Circonio"
+
+#: templates/instagram_post_page.html:541
+msgid "Emax"
+msgstr "Emáx"
+
+#: templates/instagram_post_page.html:553
+msgid "Esenler"
+msgstr "Esenler"
+
+#: templates/instagram_post_page.html:559
+msgid "Beylikdizü"
+msgstr "Beylikdizü"
+
+#: templates/instagram_post_page.html:571
+msgid "New"
+msgstr "Nuevo"
+
+#: templates/instagram_post_page.html:584
+msgid "POSTS"
+msgstr "MENSAJES"
+
+#: templates/instagram_post_page.html:590
+msgid "SAVED"
+msgstr "GUARDADO"
+
+#: templates/instagram_post_page.html:596
+msgid "TAGGED"
+msgstr "ETIQUETADO"
+
+#: templates/instagram_post_page.html:649
+msgid "Post Details"
+msgstr "Detalles de la publicación"
+
+#: templates/instagram_post_page.html:667
+msgid "Create new post"
+msgstr "Crear una nueva publicación"
+
+#: templates/instagram_post_page.html:673
+msgid "upload"
+msgstr "subir"
+
+#: templates/instagram_post_page.html:674
+msgid "Drag photos and videos here"
+msgstr "Arrastra fotos y videos aquí"
+
+#: templates/instagram_post_page.html:676
+msgid "select from your computer"
+msgstr "Seleccionar desde su computadora"
+
+#: templates/instagram_post_page.html:697
+msgid "write your email"
+msgstr "Escribe tu correo electrónico"
+
+#: templates/wagtailimportexport/import_from_csv.html:3
+#: templates/wagtailimportexport/import_from_csv.html:13
+#: templates/wagtailimportexport/index.html:5
+msgid "Import pages"
+msgstr "Importar páginas"
+
+#: templates/wagtailimportexport/import_from_csv.html:29
+msgid "IMPORTANT:"
+msgstr "IMPORTANTE:"
+
+#: templates/wagtailimportexport/import_from_csv.html:30
+msgid "CSV file must be in the correct format before importing."
+msgstr "El archivo CSV debe estar en el formato correcto antes de importarlo."
+
+#: templates/wagtailimportexport/import_from_csv.html:32
+msgid "Read the importing guide."
+msgstr "Lea la guía de importación."
+
+#: templates/wagtailimportexport/import_from_csv.html:37
+msgid "Import"
+msgstr "Importación"
+
+#: templates/wagtailimportexport/index.html:3
+msgid "Import / export pages"
+msgstr "Importar / exportar páginas"
+
+#: templates/wagtailimportexport/index.html:10
+msgid "Import from CSV file"
+msgstr "Importar desde un archivo CSV"
