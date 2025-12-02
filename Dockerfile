@@ -25,8 +25,8 @@ RUN apt-get update && apt-get install -y \
 RUN pip install --upgrade pip setuptools wheel
 
 # Copy project files
+# Copy the entire project into the image
 COPY . /app
-i 
 # Install Python dependencies
 RUN pip install -r requirements.txt
 
